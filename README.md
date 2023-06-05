@@ -1,7 +1,7 @@
 # mini-Piano-MIDI
 Simple method to convert toy piano type keyboards to MIDI 
 
-See this video: 
+See this video:  https://youtu.be/ujRLEiPdv0Y 
 
 The method is very straighforward, with code that can be easily debugged and is easy to read. 
 It is quick enough with a standard Arduino Nano to offer full polyphony and little latency.
