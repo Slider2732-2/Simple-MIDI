@@ -14,3 +14,7 @@ Full optimisation could include clever routines for the keyboard matrix and addi
 
 ![MPMIDI](https://github.com/Slider2732-2/mini-Piano-MIDI/assets/119638809/c9666064-ca6d-44d6-897a-dac432f80a8c)
 
+<br>
+<br>
+A schematic will be created and posted, if requested in the video comments.
+<br>
