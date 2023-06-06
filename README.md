@@ -18,3 +18,4 @@ Full optimisation could include clever routines for the keyboard matrix and addi
 <br>
 A schematic will be created and posted, if requested in the video comments.
 <br>
+However, the code itself has been written to easily make changes to suit another keyboard. For example, most have diodes separating each key, so changing pins 10, 11 and 12 to High rather than Low may work. A small amount of experimentation should allow discovery of the circuit path and any changes required.  
