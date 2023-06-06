@@ -1,5 +1,8 @@
 # mini-Piano-MIDI
 Simple method to convert toy piano type keyboards to MIDI 
+<br>
+No shift registers or opto-couplers needed!
+<br>
 
 See this video:  https://youtu.be/ujRLEiPdv0Y 
 
