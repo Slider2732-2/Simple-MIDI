@@ -25,4 +25,8 @@ Full optimisation could include clever routines for the keyboard matrix and fast
 <br>
 A schematic will be created and posted, if requested in the video comments.
 <br>
-However, the code itself has been written to be easily read and followed, enabling changes to be made quickly for other keyboards. For example, most have diodes separating each key, so changing pins 10, 11 and 12 to High rather than Low may work. A small amount of experimentation should allow discovery of the circuit path and any changes required.  
+However, the code itself has been written to be easily read and followed, enabling changes to be made quickly for other keyboards. For example, most have diodes separating each key, so changing pins 10, 11 and 12 to High rather than Low may work. A small amount of experimentation should allow discovery of the circuit path and any changes required. <br> 
+Microcontroller used : Arduino Nano V3 <br>
+Extra components are 10K variable pots to A0 and A1 (+5V, input pin, Gnd to pot leg connections) <br>
+4x momentary buttons to A2, A3, A4, A5 (one leg connected to Gnd) <br>
+Any or all of the extra components can be left off a build if wished and be added later, the code will still work fine. <br>
