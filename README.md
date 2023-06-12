@@ -4,9 +4,10 @@ Simple method to convert toy piano type keyboards to MIDI
 No libraries, shift registers or opto-couplers needed!
 <br>
 
-See this video:  https://youtu.be/ujRLEiPdv0Y 
+See this video:  https://youtu.be/ujRLEiPdv0Y <br>
+Also, this short video of the extended functionality: https://www.youtube.com/watch?v=RAbyoZBtSxY  
 
-Also, for a MIDI Out circuit: https://docs.arduino.cc/built-in-examples/communication/Midi
+For a MIDI Out circuit: https://docs.arduino.cc/built-in-examples/communication/Midi
 
 The method is very straighforward, with code that can be easily debugged and is easy to read. <br>
 Download mini Piano Midi.ino for a basic polyphonic MIDI solution for a 2 octave toy keyboard. <br>
