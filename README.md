@@ -15,7 +15,7 @@ Download SimpleMIDI.ino for an extended feature set - which adds pitchbend, modu
 
 In the case of the Schylling mini Piano with a 3x8 keyboard matrix, 3 Arduino pins are sequentially set Low (10, 11, 12) and 8 pins are read for changes (2 to 9). Other toy type keyboards will be very similar. <br>
 The code is quick enough with a standard Arduino Nano to offer full polyphony and little latency. <br>
-Full optimisation could include clever routines for the keyboard matrix and faster routines for pitch bend or other functions... this codebase is intended to help people start off on such roads  :)
+Full optimisation could include clever routines for the keyboard matrix and faster routines for other functions... this codebase is intended to help people start off on such roads  :)
 
 ![MPorig](https://github.com/Slider2732-2/mini-Piano-MIDI/assets/119638809/e31f9035-7ee0-43fc-bef8-ff5cf477ae1f)
 
