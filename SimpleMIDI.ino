@@ -195,22 +195,17 @@ void loop()
        {note = 66; keyOn[66] = 0; noteOff();}
 
 
-  // Pitch / Tuning - a bit bitty so best used as tuning correction
-  pitchValue = analogRead(A0); 
-  if(pitchValue < 1020 && pitchValue != lastValue) // Not connected to +5V
-    { 
-      pitchValue *64L; 
+  // Pitch / Tuning
+  pitchValue = (analogRead(A0) / 1024.0) * 127;
+  if (pitchValue < 53 || pitchValue > 56) 
+     {
       byte LSB = pitchValue & 0x7F;
-      byte MSB = pitchValue >> 7;
-     
       Serial.write(0xE0);
       Serial.write(0x01);
       Serial.write(LSB);  
-      Serial.write(MSB);    
-
-      lastValue = pitchValue;
-    }
-
+      Serial.write(pitchValue);    
+     }
+  
 
   // Modulation
   modValue = analogRead(A1);
@@ -226,6 +221,7 @@ void loop()
        lastValue2 = modValue; 
      }
     }
+
       
   // Octave up
   if (digitalRead(A2) == LOW) {octave++; delay(250);}
