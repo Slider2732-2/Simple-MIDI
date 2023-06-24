@@ -197,7 +197,7 @@ void loop()
 
   // Pitch / Tuning
   pitchValue = (analogRead(A0) / 1024.0) * 127;
-  if (pitchValue < 53 || pitchValue > 56) 
+  if (pitchValue < 60 || pitchValue > 67) 
      {
       byte LSB = pitchValue & 0x7F;
       Serial.write(0xE0);
