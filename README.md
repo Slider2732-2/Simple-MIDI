@@ -28,4 +28,4 @@ To make your keyboard run - Most toy keyboards have diodes separating each key, 
 Microcontroller used : Arduino Nano V3 <br>
 Extra components are 10K variable pots to A0 and A1 (+5V, input pin, Gnd to pot leg connections) <br>
 4x momentary buttons to A2, A3, A4, A5 (one leg connected to Gnd) <br>
-Any or all of the extra components can be left off a build if wished and be added later, just connect the unused pins of A0 to A5 to +5V. <br>
+Any or all of the extra components can be omitted if using the extended functionality code (SimpleMidi.ino). Just connect any unused pins of A0 to A5 to +5V. <br>
