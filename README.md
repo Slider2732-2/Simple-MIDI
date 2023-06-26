@@ -26,7 +26,7 @@ Full optimisation could include clever routines for the keyboard matrix and fast
 
 <br>
 <br>
-How to wire up is only a case of reading which pins are connected in the Setup function.
+How to wire up is only a case of reading which pins are connected in the Setup function.<br>
 To make your keyboard run - Most toy keyboards have diodes separating each key, so changing pins 10, 11 and 12 to High rather than Low may work. A small amount of experimentation should allow discovery of the circuit path and any changes required. <br> 
 An alternative codebase for the YAMAHA PSR-77 has been uploaded, to show how such differences can be made with a larger keyboard that has a diode matrix. In that keyboards version, pins 10 - 15 from the keyboard matrix have 10K resistors connected to +5V.<br><br><br> 
 Microcontroller used : Arduino Nano V3 <br>
