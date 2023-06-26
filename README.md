@@ -22,6 +22,8 @@ Full optimisation could include clever routines for the keyboard matrix and fast
 
 ![MPMIDI](https://github.com/Slider2732-2/mini-Piano-MIDI/assets/119638809/c9666064-ca6d-44d6-897a-dac432f80a8c)
 
+![IMG_4503](https://github.com/Slider2732-2/mini-Piano-MIDI/assets/119638809/8fcf5967-664e-448b-89a3-3776ea37f504)
+
 <br>
 <br>
 How to wire up is only a case of reading which pins are connected in the Setup function.
