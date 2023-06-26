@@ -197,7 +197,9 @@ void loop()
 
   // Pitch / Tuning
   pitchValue = (analogRead(A0) / 1024.0) * 127;
-  if (pitchValue < 60 || pitchValue > 67) 
+  if (pitchValue < 55 || pitchValue > 70) 
+  // Alter 'dead area' values above to your preference
+  // 63 is middle, a center detent wheel with springs is most exact 
      {
       byte LSB = pitchValue & 0x7F;
       Serial.write(0xE0);
