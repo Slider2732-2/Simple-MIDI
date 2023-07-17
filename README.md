@@ -10,7 +10,7 @@ Also, this short video of the extended functionality: https://www.youtube.com/wa
 For a MIDI Out circuit: https://docs.arduino.cc/built-in-examples/communication/Midi
 
 The method is very straighforward, with code that can be easily debugged and is easy to read. <br>
-Download mini Piano Midi.ino for a basic polyphonic MIDI solution for a 2 octave toy keyboard. <br>
+Download mini Piano MIDI.ino for a basic polyphonic MIDI solution for a 2 octave toy keyboard. <br>
 Download Yamaha PSR-77 MIDI.ino for a 4 octave basic polyphonic MIDI solution for the YAMAHA PSR-77. <br>
 Download SimpleMIDI.ino for an extended feature set for the 2 octave mini Piano - which adds pitchbend, modulation, octave shifting and patch selection controls. <br>
 
